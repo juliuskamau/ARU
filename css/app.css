@@ -1,0 +1,548 @@
+/**==========================================**
+        COMMON CSS 
+ **===========================================**/
+body, html {
+  font-family: "Roboto Condensed Light";
+  color: #000; }
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.center {
+  margin: auto;
+  background-position: center;
+  text-align: center;
+  float: none; }
+
+.hide {
+  display: none; }
+
+.visibilty {
+  visibility: visible; }
+
+.inline li {
+  display: inline; }
+
+ul {
+  padding-left: 0px; }
+
+.list-style-none li {
+  list-style: none; }
+
+.display-block {
+  display: block; }
+
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }
+
+.lowercase {
+  text-transform: lowercase; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.capitalize {
+  text-transform: capitalize; }
+
+.clr {
+  clear: both; }
+
+.full-width {
+  width: 100vw; }
+
+.full-height {
+  height: 100vh; }
+
+.overflow-hidden {
+  overflow: hidden; }
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  -webkit-transition: 0.6s ease-out;
+  -moz-transition: 0.6s ease-out;
+  transition: 0.6s ease-out; }
+
+a:focus, a:hover {
+  color: #C8C8C8; }
+
+.border-none {
+  border: none; }
+
+.backgroundwhite {
+  background: white; }
+
+.panel {
+  position: relative;
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  background: #EEEDEA;
+  color: #333333;
+  color: #0a0a0a; }
+
+.border-left {
+  border-left: solid 1px #000; }
+
+.line-height-normal {
+  line-height: normal; }
+
+.bullets-none {
+  list-style: none; }
+
+.background-transparent {
+  background: transparent !important; }
+
+.border-black {
+  border: 1px solid #000; }
+
+.border-white {
+  border: 1px solid #fff; }
+
+.fixed {
+  position: fixed; }
+
+.callout {
+  border-radius: 0px; }
+
+/**==========================================**
+        COMMON PADDING CSS 
+ **===========================================**/
+.padding-0 {
+  padding: 0; }
+
+.padding-bottom-0 {
+  padding-bottom: 0; }
+
+.padding-top-5 {
+  padding-top: 5px; }
+
+.padding-bottom-5 {
+  padding-bottom: 5px; }
+
+.padding-top-10 {
+  padding-top: 10px; }
+
+.padding-bottom-10 {
+  padding-bottom: 10px; }
+
+.padding-top-15 {
+  padding-top: 15px; }
+
+.padding-bottom-15 {
+  padding-bottom: 15px; }
+
+.padding-top-20 {
+  padding-top: 20px; }
+
+.padding-bottom-20 {
+  padding-bottom: 20px; }
+
+.padding-top-25 {
+  padding-top: 25px; }
+
+.padding-bottom-25 {
+  padding-bottom: 25px; }
+
+.padding-top-30 {
+  padding-top: 35px; }
+
+.padding-bottom-30 {
+  padding-bottom: 35px; }
+
+.padding-left-30 {
+  padding-left: 30px; }
+
+/**==========================================**
+       COMMON MARGIN CSS 
+**===========================================**/
+.margin-0 {
+  margin: 0; }
+
+.margin-bottom-0 {
+  margin-bottom: 0; }
+
+.margin-top-5 {
+  margin-top: 5px; }
+
+.margin-bottom-5 {
+  margin-bottom: 5px; }
+
+.margin-top-10 {
+  margin-top: 10px; }
+
+.margin-bottom-10 {
+  margin-bottom: 10px; }
+
+.margin-top-15 {
+  margin-top: 15px; }
+
+.margin-bottom-15 {
+  margin-bottom: 15px; }
+
+.margin-top-20 {
+  margin-top: 20px; }
+
+.margin-bottom-20 {
+  margin-bottom: 20px; }
+
+.margin-top-25 {
+  margin-top: 25px; }
+
+.margin-bottom-25 {
+  margin-bottom: 25px; }
+
+.margin-top-30 {
+  margin-top: 30px; }
+
+.margin-bottom-30 {
+  margin-bottom: 30px; }
+
+.margin-top-35 {
+  margin-top: 35px; }
+
+.margin-bottom-35 {
+  margin-bottom: 35px; }
+
+/**==========================================**
+         COMMON SCROLLBAR CSS 
+**===========================================**/
+::-webkit-scrollbar {
+  width: 12px;
+  border: none; }
+
+::-webkit-scrollbar-track {
+  background-color: #eee;
+  border: none; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border: none; }
+
+::selection {
+  background: #000;
+  /* WebKit/Blink Browsers */
+  color: white; }
+
+::-moz-selection {
+  background: #000;
+  /* Gecko Browsers */
+  color: white; }
+
+/**==========================================**
+         COMMON INPUT CSS 
+**===========================================**/
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="color"],
+textarea,
+select {
+  height: 3rem;
+  border-radius: 3px;
+  outline: none;
+  resize: none;
+  background: white;
+  box-shadow: none;
+  color: #808080;
+  width: 100%; }
+
+textarea {
+  height: 6rem; }
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="color"]:focus,
+textarea:focus,
+select:focus {
+  background: white; }
+
+input[type="text"]:hover,
+input[type="password"]:hover,
+input[type="date"]:hover,
+input[type="datetime"]:hover,
+input[type="datetime-local"]:hover,
+input[type="month"]:hover,
+input[type="week"]:hover,
+input[type="email"]:hover,
+input[type="number"]:hover,
+input[type="search"]:hover,
+input[type="tel"]:hover,
+input[type="time"]:hover,
+input[type="url"]:hover,
+input[type="color"]:hover,
+textarea:hover,
+select:hover {
+  background: white; }
+
+input[type="checkbox"] {
+  margin: 5px 8px 0 0;
+  cursor: pointer; }
+
+input[type="number"] {
+  padding: 0 0 0 10px; }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1; }
+
+input[type="submit"] {
+  background-color: #000000;
+  color: #fff;
+  padding: 0.65em 1em;
+  -webkit-appearance: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none; }
+
+input[type="submit"]:hover, input[type="submit"]:focus {
+  color: #FFf;
+  background-color: #15499F; }
+
+select {
+  background: #fff url(../assets/icon/select-arrow.png) no-repeat 100% 0px; }
+
+select:hover {
+  background: #fff url(../assets/icon/select-arrow.png) no-repeat 100% -37px; }
+
+/**==========================================**
+        FONT AWESOME CSS 
+**===========================================**/
+.fab {
+  font-size: 14px;
+  -moz-transition: color .5s ease-in-out;
+  -webkit-transition: color .5s ease-in-out; }
+
+.fab-2 {
+  font-size: 16px; }
+
+.fab-3 {
+  font-size: 18px; }
+
+.fab-4 {
+  font-size: 24px; }
+
+.fab-5 {
+  font-size: 30px; }
+
+.fab-6 {
+  font-size: 80px; }
+
+/**==========================================**
+        LAGER BACKGROUND COLOR AND FONT COLOR CSS 
+**===========================================**/
+.blue {
+  background: #15499F;
+  background-color: #15499F; }
+
+.black {
+  background: #000000; }
+
+.color-blue {
+  color: #15499F; }
+
+.color-black {
+  color: #000; }
+
+.color-white {
+  color: #fff; }
+
+.transparent {
+  background-color: transparent !important;
+  background: transparent !important; }
+
+/**==========================================**
+         HEADINGS CSS 
+**===========================================**/
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Condensed Light"; }
+
+/**==========================================**
+         BUTTON CSS 
+**===========================================**/
+.button {
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  overflow: hidden;
+  background-color: #15499F;
+  font-family: "Roboto Condensed Bold"; }
+  .button:hover:after, .button:focus:after {
+    height: 260%;
+    opacity: 1; }
+  .button:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 100%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    background: #000;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    transform: translateX(-50%) translateY(-50%) rotate(45deg); }
+  .button:hover, .button:focus {
+    color: #83878D;
+    background-color: #Ffff; }
+
+.button-rounded {
+  border-radius: 5px;
+  /*border: 1px solid #000;color: #000;*/
+  text-transform: uppercase;
+  display: block;
+  background-color: transparent;
+  outline: 0;
+  clear: both;
+  font-size: 15px; }
+
+/**==========================================**
+         JARALLAX CSS 
+**===========================================**/
+.jarallax {
+  position: relative;
+  z-index: 0;
+  min-height: 600px; }
+
+.jarallax .jarallax-img {
+  position: absolute;
+  object-fit: cover;
+  /* support for plugin https://github.com/bfred-it/object-fit-images */
+  font-family: 'object-fit: cover;';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; }
+
+/**==========================================**
+         lazy loader CSS 
+**===========================================**/
+.image-loader {
+  background: #1E1E1E url(../assets/icon/loader.gif) center center no-repeat;
+  width: 100%; }
+
+/**==========================================**
+        HEADER CSS 
+**===========================================**/
+header {
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 9;
+  top: 0px; }
+  header .social {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.42); }
+    header .social a i {
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      font-size: 12px;
+      color: #fff;
+      line-height: 30px;
+      text-align: center;
+      margin-left: 10px;
+      border: solid 2px #fff; }
+  header .dropdown.menu li a {
+    border-left: solid 1px rgba(255, 255, 255, 0.42);
+    padding: 0rem 1rem;
+    color: #fff;
+    font-size: 18px;
+    outline: 0; }
+    header .dropdown.menu li a:active, header .dropdown.menu li a:hover {
+      font-weight: bold;
+      border-bottom: solid 3px #fff;
+      position: relative; }
+      header .dropdown.menu li a:active:after, header .dropdown.menu li a:hover:after {
+        border: solid transparent;
+        border-top-color: #fff;
+        border-width: 10px;
+        content: ' ';
+        position: absolute;
+        bottom: -23px;
+        text-align: center;
+        margin: 0 auto;
+        right: 0px;
+        left: 0px;
+        width: 10px; }
+
+/**==========================================**
+        BANNER CSS 
+**===========================================**/
+figure figcaption {
+  display: table;
+  width: 100%;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff; }
+  figure figcaption .table {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 10px; }
+    figure figcaption .table h1 {
+      position: relative; }
+      figure figcaption .table h1::after {
+        border-bottom: solid 1px #fff; }
+    figure figcaption .table .wrapper-caption {
+      width: 800px; }
+    figure figcaption .table .button {
+      padding: 1.5em 3em; }
+figure .inline-buttons {
+  position: absolute;
+  bottom: 0px;
+  z-index: 9;
+  width: 100%;
+  right: 0px;
+  left: 0px; }
+  figure .inline-buttons h2 {
+    float: right;
+    font-size: 18pt;
+    margin: 0px 0px 0px 10px; }
+  figure .inline-buttons span {
+    float: left; }
+  figure .inline-buttons .fas {
+    font-size: 24px; }
+
+/*# sourceMappingURL=app.css.map */
